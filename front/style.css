@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400&family=Nunito:wght@300;400;600;700;800&family=Raleway+Dots&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'nunito';
+    width: 100%;
+    height: 100vh;
+    background-color: #E5F5E5;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.container, .div_form_01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #053804;
+    /* background: linear-gradient(90deg, #ecf1ec 0%, #2DAD2B 100%); */
+    width: 40%;
+
+}
+.form_02{
+    padding: 10px;
+}
+.input{
+    padding: 10px;
+    padding-top: 10px;
+    border: 1px #000000;
+}
+
+/*.container, .div_form_02{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(161, 158, 154);
+    /* background-color: #E5F5E5; */
+    
+/*
+.container, .div_form_01{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(90deg, #2DAD2B 0%, #053804 100%);
+
+
+}
+.container, .div_form_02{
+    display: flex;
+
+    flex-direction: column;
+    background-color: #E5F5E5;
+} */
