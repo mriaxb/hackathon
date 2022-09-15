@@ -23,23 +23,56 @@ body{
     /* flex-direction: column; */
 }
 
-.container, .div_form_01{
+ .div_form_01{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #053804;
+    background: linear-gradient(329.54deg, #0B1773 0%, #000173 100%);
     /* background: linear-gradient(90deg, #ecf1ec 0%, #2DAD2B 100%); */
     width: 40%;
 
 }
-.form_02{
-    padding: 10px;
+
+.div_form_02{
+    display: flex;
+    background-color: #E5F5E5;
+    /* background: linear-gradient(90deg, #ecf1ec 0%, #2DAD2B 100%); */
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+
 }
+
+.form_02{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .input{
-    padding: 10px;
-    padding-top: 10px;
+    margin: 10px;
     border: 1px #000000;
 }
+
+.title{
+    margin-top: 10%;
+    margin-right: 25%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 42px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+#id_banco{
+    margin-top: 10%;
+    width: 80%;
+    height: 6%;
+    background: #E5F5E5;
+    border: 1px solid #000000;
+    border-radius: 9px;
+}
+
 
 /*.container, .div_form_02{
     display: flex;
