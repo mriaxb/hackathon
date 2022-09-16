@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400&family=Nunito:wght@300;400;600;700;800&family=Raleway+Dots&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'nunito';
+    width: 100%;
+    height: 100vh;
+    background-color: #E5F5E5;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+}
+.header{
+    background-color: #0001A3;
+    height: 10%;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+.navbar{
+    position: absolute;
+    index: 3;
+    display: flex;
+    background: linear-gradient(329.54deg, #0B1773 0%, #000173 100%);
+    /* background: linear-gradient(90deg, #ecf1ec 0%, #2DAD2B 100%); */
+    width: 15%;
+    height: 100%;
+
+
+}
+
+
+.form_01{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-top: 0px;
+}
+.form_01 a{
+    text-align: center;
+    border: 1px solid #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    color: #E5F5E5;
+    padding: 5%;
+}
+.form_01 a:hover{
+    border: 1px solid #b6bbb6;
+    color: #b6bbb6;
+}
+
+.form_01 a:active{
+    border: 1px solid #0001A3;
+    color: #0001A3;
+    background-color: #b6bbb6;
+}
+.header img{
+    z-index: 1;
+    display: flex;
+    margin-left: -1.1%;
+    position: absolute;
+    height: 120%;
+    margin-top: -1.1%;
+ 
+
+}
+
+.avatar{
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 95%;
+    margin-top: 0.6%;
+    background-color: #E5F5E5;
+    
+} 
+
+
+.navbar img{
+
+    padding: 0 20% 0 20% 0;
+    margin-bottom: 20%;
+    height: 10%;
+    width: 100%;
+}
