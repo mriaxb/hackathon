@@ -73,12 +73,27 @@ body{
 } 
 
 table{
-    width: 70%;
-    height: 50%;
+    display: flex;
+    margin-left: 22%;
+    margin-top: 15%;
+    /* background-color: #000; */
+    
+    width: 800px;
+}
+th{
+    height: 65px;
+}
+tr{
+    height: 40px;
+
+}
+td{
+    width: 200px;
+    height: 66%;
+    text-align: center;
 }
 table, th, td{
     border:1px solid #000;
 }
-
 
 
